@@ -1,0 +1,50 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.12.0
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:debug:20170905':
+    - gscan > ghost-ignition > express > debug:
+        patched: '2018-05-22T05:52:12.186Z'
+    - gscan > ghost-ignition > express > send > debug:
+        patched: '2018-05-22T05:52:12.186Z'
+    - gscan > ghost-ignition > express > serve-static > send > debug:
+        patched: '2018-05-22T05:52:12.186Z'
+    - passport-ghost > ghost-ignition > express > debug:
+        patched: '2018-05-22T05:52:12.186Z'
+    - passport-ghost > ghost-ignition > express > finalhandler > debug:
+        patched: '2018-05-22T05:52:12.186Z'
+    - passport-ghost > ghost-ignition > express > send > debug:
+        patched: '2018-05-22T05:52:12.186Z'
+    - passport-ghost > ghost-ignition > express > serve-static > send > debug:
+        patched: '2018-05-22T05:52:12.186Z'
+    - gscan > ghost-ignition > express > finalhandler > debug:
+        patched: '2018-05-22T05:52:12.186Z'
+  'npm:minimatch:20160620':
+    - ghost-editor > ember-cli-babel > broccoli-babel-transpiler > babel-core > minimatch:
+        patched: '2018-05-22T05:52:12.186Z'
+  'npm:ms:20170412':
+    - gscan > ghost-ignition > express > debug > ms:
+        patched: '2018-05-22T05:52:12.186Z'
+    - passport-ghost > ghost-ignition > express > serve-static > send > ms:
+        patched: '2018-05-22T05:52:12.186Z'
+    - gscan > ghost-ignition > express > send > ms:
+        patched: '2018-05-22T05:52:12.186Z'
+    - gscan > ghost-ignition > express > send > debug > ms:
+        patched: '2018-05-22T05:52:12.186Z'
+    - gscan > ghost-ignition > express > serve-static > send > debug > ms:
+        patched: '2018-05-22T05:52:12.186Z'
+    - passport-ghost > ghost-ignition > express > debug > ms:
+        patched: '2018-05-22T05:52:12.186Z'
+    - passport-ghost > ghost-ignition > express > finalhandler > debug > ms:
+        patched: '2018-05-22T05:52:12.186Z'
+    - passport-ghost > ghost-ignition > express > send > ms:
+        patched: '2018-05-22T05:52:12.186Z'
+    - passport-ghost > ghost-ignition > express > send > debug > ms:
+        patched: '2018-05-22T05:52:12.186Z'
+    - passport-ghost > ghost-ignition > express > serve-static > send > debug > ms:
+        patched: '2018-05-22T05:52:12.186Z'
+    - gscan > ghost-ignition > express > serve-static > send > ms:
+        patched: '2018-05-22T05:52:12.186Z'
+    - gscan > ghost-ignition > express > finalhandler > debug > ms:
+        patched: '2018-05-22T05:52:12.186Z'
