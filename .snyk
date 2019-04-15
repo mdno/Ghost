@@ -1,0 +1,73 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.13.3
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:debug:20170905':
+    - gscan > ghost-ignition > express > debug:
+        patched: '2019-04-15T21:51:07.046Z'
+    - passport-ghost > ghost-ignition > express > debug:
+        patched: '2019-04-15T21:51:07.046Z'
+    - passport-ghost > ghost-ignition > express > finalhandler > debug:
+        patched: '2019-04-15T21:51:07.046Z'
+    - gscan > ghost-ignition > express > finalhandler > debug:
+        patched: '2019-04-15T21:51:07.046Z'
+    - passport-ghost > ghost-ignition > express > send > debug:
+        patched: '2019-04-15T21:51:07.046Z'
+    - passport-ghost > ghost-ignition > express > serve-static > send > debug:
+        patched: '2019-04-15T21:51:07.046Z'
+    - gscan > ghost-ignition > express > serve-static > send > debug:
+        patched: '2019-04-15T21:51:07.046Z'
+    - gscan > ghost-ignition > express > send > debug:
+        patched: '2019-04-15T21:51:07.046Z'
+  'npm:hoek:20180212':
+    - knex-migrator > sqlite3 > node-pre-gyp > hawk > boom > hoek:
+        patched: '2019-04-15T21:51:07.046Z'
+    - knex-migrator > sqlite3 > node-pre-gyp > hawk > sntp > hoek:
+        patched: '2019-04-15T21:51:07.046Z'
+    - knex-migrator > sqlite3 > node-pre-gyp > hawk > cryptiles > boom > hoek:
+        patched: '2019-04-15T21:51:07.046Z'
+    - knex-migrator > sqlite3 > node-pre-gyp > hawk > hoek:
+        patched: '2019-04-15T21:51:07.046Z'
+  'npm:lodash:20180130':
+    - ghost-editor > ember-cli-babel > broccoli-babel-transpiler > babel-core > lodash:
+        patched: '2019-04-15T21:51:07.046Z'
+    - ghost-editor > ember-cli-babel > broccoli-babel-transpiler > babel-core > babel-plugin-proto-to-assign > lodash:
+        patched: '2019-04-15T21:51:07.046Z'
+  'npm:mime:20170907':
+    - gscan > ghost-ignition > express > send > mime:
+        patched: '2019-04-15T21:51:07.046Z'
+    - passport-ghost > ghost-ignition > express > send > mime:
+        patched: '2019-04-15T21:51:07.046Z'
+    - gscan > ghost-ignition > express > serve-static > send > mime:
+        patched: '2019-04-15T21:51:07.046Z'
+    - passport-ghost > ghost-ignition > express > serve-static > send > mime:
+        patched: '2019-04-15T21:51:07.046Z'
+  'npm:minimatch:20160620':
+    - ghost-editor > ember-cli-babel > broccoli-babel-transpiler > babel-core > minimatch:
+        patched: '2019-04-15T21:51:07.046Z'
+  'npm:ms:20170412':
+    - passport-ghost > ghost-ignition > express > serve-static > send > ms:
+        patched: '2019-04-15T21:51:07.046Z'
+    - gscan > ghost-ignition > express > send > ms:
+        patched: '2019-04-15T21:51:07.046Z'
+    - gscan > ghost-ignition > express > debug > ms:
+        patched: '2019-04-15T21:51:07.046Z'
+    - passport-ghost > ghost-ignition > express > debug > ms:
+        patched: '2019-04-15T21:51:07.046Z'
+    - passport-ghost > ghost-ignition > express > send > debug > ms:
+        patched: '2019-04-15T21:51:07.046Z'
+    - passport-ghost > ghost-ignition > express > send > ms:
+        patched: '2019-04-15T21:51:07.046Z'
+    - passport-ghost > ghost-ignition > express > finalhandler > debug > ms:
+        patched: '2019-04-15T21:51:07.046Z'
+    - gscan > ghost-ignition > express > finalhandler > debug > ms:
+        patched: '2019-04-15T21:51:07.046Z'
+    - passport-ghost > ghost-ignition > express > serve-static > send > debug > ms:
+        patched: '2019-04-15T21:51:07.046Z'
+    - gscan > ghost-ignition > express > serve-static > send > debug > ms:
+        patched: '2019-04-15T21:51:07.046Z'
+    - gscan > ghost-ignition > express > serve-static > send > ms:
+        patched: '2019-04-15T21:51:07.046Z'
+    - gscan > ghost-ignition > express > send > debug > ms:
+        patched: '2019-04-15T21:51:07.046Z'
