@@ -1,0 +1,36 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.14.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-LODASH-567746:
+    - knex-migrator > lodash:
+        patched: '2020-04-30T21:14:26.180Z'
+    - gscan > ghost-ignition > lodash:
+        patched: '2020-04-30T21:14:26.180Z'
+    - passport-ghost > ghost-ignition > lodash:
+        patched: '2020-04-30T21:14:26.180Z'
+    - lodash:
+        patched: '2020-04-30T21:14:26.180Z'
+    - passport-ghost > lodash:
+        patched: '2020-04-30T21:14:26.180Z'
+    - archiver > lodash:
+        patched: '2020-04-30T21:14:26.180Z'
+    - knex > lodash:
+        patched: '2020-04-30T21:14:26.180Z'
+    - amperize > async > lodash:
+        patched: '2020-04-30T21:14:26.180Z'
+    - archiver > archiver-utils > lodash:
+        patched: '2020-04-30T21:14:26.180Z'
+    - archiver > async > lodash:
+        patched: '2020-04-30T21:14:26.180Z'
+    - archiver > zip-stream > lodash:
+        patched: '2020-04-30T21:14:26.180Z'
+    - knex-migrator > knex > lodash:
+        patched: '2020-04-30T21:14:26.180Z'
+    - archiver > zip-stream > archiver-utils > lodash:
+        patched: '2020-04-30T21:14:26.180Z'
+    - ghost-editor > ember-cli-htmlbars > broccoli-persistent-filter > async-promise-queue > async > lodash:
+        patched: '2020-04-30T21:14:26.180Z'
+    - ghost-editor > ember-cli-babel > broccoli-babel-transpiler > broccoli-persistent-filter > async-promise-queue > async > lodash:
+        patched: '2020-04-30T21:14:26.180Z'

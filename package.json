@@ -19,7 +19,9 @@
   "main": "./core/index",
   "scripts": {
     "start": "node index",
-    "test": "grunt validate --verbose"
+    "test": "grunt validate --verbose",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "engines": {
     "node": "~0.12.0 || ^4.2.0 || ^6.5.0"
@@ -84,7 +86,8 @@
     "superagent": "3.8.1",
     "unidecode": "0.1.8",
     "validator": "5.7.0",
-    "xml": "1.0.1"
+    "xml": "1.0.1",
+    "snyk": "^1.316.1"
   },
   "optionalDependencies": {
     "sqlite3": "3.1.8"
@@ -156,5 +159,6 @@
       "grunt-subgrunt",
       "grunt-update-submodules"
     ]
-  }
+  },
+  "snyk": true
 }
